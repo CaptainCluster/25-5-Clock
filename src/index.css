@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 100x;
+  height: 100vh;
+  background-color: rgb(120, 178, 196);
+
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 45%;
+  height: 75%;
+
+  border: 1px solid darkgray;
+
+  background-color: lightblue;
+  border-radius: 5px;
+  font-size: 16px;
+
+  overflow: auto;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#header {
+  font-size: 24px;
+  font-style: italic;
+}
+
+#control-panel {
+  width: 300px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#length-control {
+  width: 100%;
+}
+
+#length-control button {
+  background-color: rgb(59, 128, 238);
+  color: white;
+
+  width: 25px;
+  height: 25px;
+
+  border: 0px;
+  border-radius: 6px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#length-control button:hoverbody {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(120, 178, 196);
+
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 45%;
+  height: 75%;
+
+  border: 1px solid darkgray;
+
+  background-color: lightblue;
+  border-radius: 5px;
+  font-size: 26px;
+
+  overflow: auto;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#header {
+  font-size: 40px;
+  font-style: italic;
+}
+
+#control-panel {
+  width: 400px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#length-control {
+  width: 100%;
+}
+
+#length-control button {
+  background-color: rgb(59, 128, 238);
+  color: white;
+
+  width: 45px;
+  height: 45px;
+
+  border: 0px;
+  border-radius: 6px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#length-control button:hover {
+  border: 1px solid white;
+}
+
+.timer {
+  background: lightgrey;
+  border-radius: 6px;
+
+  height: 60px;
+  text-align: center;
+}
+.timer-wrapper {
+  margin-top: 5px;
+}
+
+#timer-control button {
+  width: 50px;
+  height: 25px;
+
+  border: 0px;
+  border-radius: 6px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#timer-control button:hover {
+  border: 1px solid white;
+}
+
+.timer {
+  background: lightgrey;
+  border-radius: 6px;
+
+  height: 100px;
+  text-align: center;
+}
+.timer-wrapper {
+  margin-top: 15px;
+}
+
+#timer-control button {
+  width: 75px;
+  height: 45px;
+
+  border: 0px;
+  border-radius: 6px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#timer-control button:hover {
+  border: 1px solid white;
+}
